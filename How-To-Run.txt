@@ -1,0 +1,23 @@
+## Use the Visual Studio Code terminals to do you work ##
+
+NOTE: Ensure that you have opened Visual Studio Code in the PROJECT folder,
+      and not in backend/frontend folders specifically.
+
+
+SET UP 3 TERMINALS:
+
+1. Ensure you have the first terminal (1) free, and pointing to 'frontend/' (to do this: cd frontend/).
+2. Add ANOTHER terminal (+ button) to have a second terminal (2), and pointing to 'backend/' (to do this: cd backend/).
+3. Add ANOTHER terminal again to have a third terminal (3), and leave it pointing as it is (PROJECT folder).
+
+
+RUN COMMANDS IN GIVEN ORDER:
+
+4. In terminal 3, run the command:
+    "C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
+
+5. In terminal 2, run the command:
+    nodemon
+
+6. In terminal 1, run the command:
+    ng serve

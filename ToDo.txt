@@ -1,0 +1,28 @@
+## To Do Jobs for this app ##
+
+
+> JOB 1:  - STATUS: Incomplete -
+  Merge current components (ideas & idea-content) to match the new routing components (list & edit & create) and replace safely.
+
+    - '/list' should display all the ideas in the left sidebar ul element - COMPLETE
+      --> NOTE: This should completely replace the 'ideas' component when everything in this job is complete
+
+    - '/edit' should display the content of the SELECTED (clicked) item in the main-content display area
+      --> NOTE: This should/hopefully completely replace the 'idea-content' component when everything in this job is complete
+
+    - '/create' should display a new frontend SPA 'page' upon clicking the 'Add an Idea' button to fulfill a post request
+      --> NOTE: If this isn't working, or not preferred, perhaps make the route respond to the on-page 'add' button as before?
+
+
+> JOB 2:  - STATUS: Incomplete -
+  Consider naming conventions of all routing - EXAMPLE: do we really want "https://IdeaManagr/list" instead of "https://IdeaManagr/dashboard"
+  for our list of ideas (the main application page, remember!).
+
+
+> JOB 3:  - STATUS: Incomplete -
+  Route the other non-application pages into the website (Homepage, account, etc).
+  
+
+> JOB 4:  - STATUS: Incomplete -
+  Incorporate authentication (look back at Colt's passport stuff?). Perhaps consider how to incorporate the database schemas that will show
+  unique content depending on the user (not everyone is meant to see the same exact ideas).
